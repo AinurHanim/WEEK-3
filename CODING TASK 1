@@ -1,0 +1,48 @@
+package Task1;
+
+public class RectangleComputation {
+
+	public static void main(String[] args) {
+		double area;
+		double perimeter;
+		double length = 1.2;
+		double width = 2.0;
+		
+		area = length*width;
+		perimeter = length+length+width+width;
+		
+		System.out.println("The length is " + 1.2 + " and the width is " + 2.0);
+		System.out.print("The area is ");
+		System.out.println(area);
+		System.out.print("The perimeter is ");
+		System.out.println(perimeter);
+
+	}
+
+}
+
+package Task1;
+
+public class CylinderComputation {
+
+	public static void main(String[] args) {
+		double radius = 1.2;
+		double height = 2.0;
+		double surfacearea;
+		double basearea;
+		double volume;
+		double PI = 3.14159265;
+		
+		surfacearea = (2*PI*radius*height)+(2*PI*(radius*radius));
+		basearea = PI*(radius*radius);
+		volume = PI*(radius*radius)*height;
+		
+		System.out.println("The radius is " + 1.2 + " and the height is " + 2.0);
+		System.out.println("The surface area of cylinder is " + surfacearea);
+		System.out.println("The based area of cylinder is " + basearea);
+		System.out.println("The volume of cylinder is " + volume);
+		
+
+	}
+
+}
